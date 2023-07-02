@@ -1,0 +1,46 @@
+{
+  "name": "klik",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "tsup src/index.tsx",
+    "dev": "tsup src/index.tsx --watch",
+    "dev:website": "turbo run dev --filter=website...",
+    "dev:test": "turbo run dev --filter=test...",
+    "format": "prettier --write .",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurhan1337/klik.git"
+  },
+  "keywords": [],
+  "author": "Onurhan Demir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onurhan1337/klik/issues"
+  },
+  "homepage": "https://github.com/onurhan1337/klik#readme",
+  "packageManager": "pnpm@6.32.11",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^7.1.0",
+    "turbo": "^1.10.7",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
