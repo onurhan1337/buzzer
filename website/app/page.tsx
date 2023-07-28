@@ -13,7 +13,7 @@ export default function Home() {
       <div>
           <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
                   <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-black sm:text-4xl">
-                      klik.
+                    collier.
                   </h2>
                   <p className="mx-auto italic font-semibold text-center my-4 max-w-xl text-3xl text-black">
                         JUST A BUTTON.
